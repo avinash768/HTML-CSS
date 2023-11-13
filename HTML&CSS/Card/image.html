@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-container img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .image-container:hover img {
+      transform: scale(2.1);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <img src="https://placekitten.com/300/200" alt="Hover Image">
+  </div>
+
+</body>
+</html>
