@@ -1,0 +1,31 @@
+#container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    descent-override: initial;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+@media(max-width: 1500px){
+    div{
+        background-color: bisque;
+    }
+}

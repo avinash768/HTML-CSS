@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+  padding: 0%;
+  font-style: normal;
+
+  }
+ #log{
+   font-size : 25px;
+   color:#f08804;
+ }
+ a{
+  margin-right: 200px;
+  color: azure;
+  text-decoration: none;
+ }
+ #nav{
+  padding-top: 20px;
+  height: 60px;
+  width: 1400px;
+  background-color: #0f1111;
+ 
+ }
+ button{
+  background-color:#f08804;
+ }
+
+.content{
+  height: 530px;
+}
+#footer{
+  color: azure;
+  text-align: center;
+  background-color: black;
+  bottom: 0;
+  position: fixed;
+  
+}
+div{
+  display: inline-block;
+}
+#box1{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: static;
+  top: 0px;
+}
+#box2{
+  height: 100px;
+  width: 100px;  
+  background-color: aqua;
+  position: relative;
+  top: 0px;
+
+
+}
+#box3{
+  background-color: #f08804;
+  
+  height: 100px;
+  width: 100px;
+  position: static;
+  top: 0px;
+
+}
